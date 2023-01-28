@@ -1,6 +1,5 @@
 
-# react-native-mulitple-choices
-
+# rn-multiple-choices
 React native component for multiple choice questions-answers/choices.
 
 
@@ -10,15 +9,21 @@ To add this package to your project:
 
 ### npm
 ```bash
-  npm install react-native-mulitple-choices
+  npm install rn-multiple-choices
 ```
 ### yarn
 ```bash
-  yarn add react-native-mulitple-choices
+  yarn add rn-multiple-choices
 ```
 
-## Basic usage
+## Usage
 
+### Import
+```javascript
+import MultipleChoice from 'rn-multiple-choices';
+```
+
+### Basic
 ```javascript
                 <MultipleChoice
                     title={'What is ReactJS?'}
@@ -32,7 +37,7 @@ To add this package to your project:
 
 ![Basic usage](https://user-images.githubusercontent.com/123744955/215139776-9d61ee1c-bf7a-441c-9cdb-d3cd3ba44448.png)
 
-## Custom styling
+### Custom styling
 ```javascript
                 <MultipleChoice
                     title={'What is ReactJS?'}
@@ -70,7 +75,7 @@ To add this package to your project:
 | choiceTextColor          | string         |  choice text & radio icon color value  |
 
 ## Authors
-- [@milind-codes](https://github.com/milind-codes)
+- [@little-infinity](https://github.com/little-infinity)
 
 
 ## Contributing

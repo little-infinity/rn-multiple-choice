@@ -1,6 +1,6 @@
 {
-  "name": "rn-multiple-choice",
-  "version": "1.0.0",
+  "name": "rn-multiple-choices",
+  "version": "1.0.1",
   "description": "React native multiple choice component",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/little-infinity/rn-multiple-choice.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -43,7 +47,7 @@
     "multiple-choice",
     "radio-button"
   ],
-  "author": "",
+  "author": "Milind Sutar <er.milind.sutar@gmail.com> (https://github.com/little-infinity)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/little-infinity/rn-multiple-choice/issues"

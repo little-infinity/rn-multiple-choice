@@ -1,1 +1,1 @@
-module.exports.MultipleChoice = require("./MultipleChoice");
+export { default as MultipleChoice } from './lib/MultipleChoice';
