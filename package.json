@@ -1,0 +1,52 @@
+{
+  "name": "rn-multiple-choice",
+  "version": "1.0.0",
+  "description": "React native multiple choice component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/little-infinity/rn-multiple-choice.git"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.71.1",
+    "react-native-paper": "^5.1.4"
+  },
+  "react-native": {
+    "path": "path-browserify",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "tls": false
+  },
+  "browser": {
+    "path": "path-browserify",
+    "fs": "react-native-level-fs",
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "tls": false
+  },
+  "keywords": [
+    "react-native",
+    "react-native-multiple-choice",
+    "multiple-choice",
+    "radio-button"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/little-infinity/rn-multiple-choice/issues"
+  },
+  "homepage": "https://github.com/little-infinity/rn-multiple-choice#readme"
+}
